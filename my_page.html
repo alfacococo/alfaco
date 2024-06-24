@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="style_my_page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<main>
+  <div  id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+    <a href="#section1" onclick="navigateAndClose()">Profile</a>
+    <a href="#section2" onclick="navigateAndClose()">Hobby</a>
+    <a href="#section4" onclick="navigateAndClose()">My Favorite Tea</a>
+    <a href="#section5" onclick="navigateAndClose()">Other People</a>
+    </div>
+  </div>
+  <header class="header" >      <!-- 按照模版网站，改成了上下两个部分！增加了top-row，放Font Awesome的CSS -El -->
+  <div class="top-row">
+    <div class="logo">
+      <img src="my_page_image/Logo.png" alt="Logo">
+      <span>Na-i</span>   <!-- 随便填了一个logo旁边的网页主题 -El -->
+    </div>
+    <div class="icons">     <!-- 这里放了具体的 Font Awesome的CSS -El -->
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-bars" onclick="openNav()"></i>
+    </div>
+  </div>
+  <nav class="menu">
+    <a href="#section1">Profile</a>
+    <a href="#section2">Hobby</a>
+    <a href="#section4">My Favorite Tea</a>
+    <a href="#section5">Other People</a>
+  </nav>
+</header>
+
+  <section class="section">
+  <div class="mv">
+    <img src="my_page_image/mv.jpg" alt="main visual">
+    <p class="copy1">ほっとひといき</p>
+    <p class="copy2">お茶の時間</p>
+  </div>
+  </section>
+
+  <section class="intro section" id="section1">
+    <div class="intro_content">
+      <h1>わたしの<br>こと</h1>
+      <h2>about</h2>
+      <p>デザインと写真で、自分の大切な人やモノ、<br>
+        誰かにとっての大切な人やモノをより輝かせたい。<br>
+        いつまでもわくわくを忘れないおとなでありたい。<br>
+
+        好奇心旺盛、すなおでまじめなおとなです。</p>
+      <a href="#">my profile</a>
+    </div>
+    <div class="about_img">
+      <img src="my_page_image/about.png" alt="">
+    </div>
+  </section>
+
+  <section class="favorite section" id="section2">
+    <h1>デザインしてます</h1>
+    <h2>design</h2>
+    <img class="test" src="my_page_image/girls.png">
+    <ul>
+      <li><img src="my_page_image/tea1.png" alt=""></li>
+      <li><img src="my_page_image/tea2.png" alt=""></li>
+      <li><img src="my_page_image/tea3.png" alt=""></li>
+    </ul>
+    <div class="favorite_content">
+      <p>大好きな " ものづくり " を仕事にして10年。<br>
+        ディレクションからデザイン、コーディングやWordpress構築までワンストップで担当できる<br>
+        WEBサイト制作をメインに、デザインにかかわる様々なお仕事を承っております。</p>
+      <a href="#">view more</a>
+    </div>
+  </section>
+
+  <section class="favorite section" id="section3">
+    <h1>デザインしてます</h1>
+    <h2>design</h2>
+    <img class="test2" src="my_page_image/victorian.png" alt="">
+    <ul>
+      <li><img src="my_page_image/flower1.png" alt=""></li>
+      <li><img src="my_page_image/flower2.png" alt=""></li>
+      <li><img src="my_page_image/flower3.png" alt=""></li>
+    </ul>
+    <div class="favorite_content">
+      <p>大好きな " ものづくり " を仕事にして10年。<br>
+        ディレクションからデザイン、コーディングやWordpress構築までワンストップで担当できる<br>
+        WEBサイト制作をメインに、デザインにかかわる様々なお仕事を承っております。</p>
+      <a href="#">view more</a>
+    </div>
+  </section>
+
+<section class="favorite_tea section" id="section4">
+  <div class="favorite_tea_title">
+    <h1>My Favorite Tea</h1>
+    <p>pick up</p>
+  </div>
+  <div class="gallery">
+    <div class="slideshow-container">
+    <div class="mySlide fade">
+      <ul>
+        <li class="slide01 slide fade">
+          <div class="bxslider-caption">
+            <p class="number">01</p>
+            <div>
+              <p>白桃烏龍</p>
+              <p>Oolong Tea</p>
+            </div>
+            <p>
+              “ feel natural ”をテーマに、森や草原、暖かな太陽の光澄みきった空気から感じられる、優しい色や質感を大切にしたオーダーウェディングドレスの製作を行う、EverGreen Wedding様のサイトリニューアルを担当させていただきました。
+            </p>
+          </div>
+        </li>
+        <li class="slide02 slide fade">
+          <div class="bxslider-caption">
+            <p class="number">02</p>
+            <div>
+              <p>白桃烏龍</p>
+              <p>Oolong Tea</p>
+            </div>
+            <p>
+              “ feel natural ”をテーマに、森や草原、暖かな太陽の光澄みきった空気から感じられる、優しい色や質感を大切にしたオーダーウェディングドレスの製作を行う、EverGreen Wedding様のサイトリニューアルを担当させていただきました。
+            </p>
+          </div>
+        </li>
+        <li class="slide03 slide fade">
+          <div class="bxslider-caption">
+            <p class="number">03</p>
+            <div>
+              <p>白桃烏龍</p>
+              <p>Oolong Tea</p>
+            </div>
+            <p>
+              “ feel natural ”をテーマに、森や草原、暖かな太陽の光澄みきった空気から感じられる、優しい色や質感を大切にしたオーダーウェディングドレスの製作を行う、EverGreen Wedding様のサイトリニューアルを担当させていただきました。
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <div class="prev-btn">
+      <a class="bx-prev" onclick="plusSlides(-1)"><img src="my_page_image/ar-back.png" alt=""></a>
+    </div>
+    <div class="next-btn">
+      <a class="bx-next" onclick="plusSlides(1)"><img src="my_page_image/ar-next.png" alt=""></a>
+    </div>
+  </div >
+
+</section>
+
+<section class="footer section" id="section5">
+  <h1>Other People</h1>
+  <div class="dividing_line"><img src="my_page_image/Logo.png" alt=""></div>
+  <ul>
+    <li><a>女王丨网站名称</a></li>
+    <li><a>峰峰丨网站名称</a></li>
+    <li><a>梅梅丨网站名称</a></li>
+    <li><a>娟儿丨网站名称</a></li>
+    <li><a>邵老师丨网站名称</a></li>
+    <li><a>工猪丨网站名称</a></li>
+    <li><a>Ellie丨网站名称</a></li>
+  </ul>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <div class="footer_bgd"></div>
+</section>
+
+</main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let currentSectionIndex = 0;
+        const sections = document.querySelectorAll('section');
+        let isScrolling = false;
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5 // 50% of the section should be visible
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    currentSectionIndex = [...sections].indexOf(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        window.addEventListener('wheel', (event) => {
+            if (isScrolling) return;
+            isScrolling = true;
+
+            if (event.deltaY > 0) {
+                scrollToSection(currentSectionIndex + 1);
+            } else {
+                scrollToSection(currentSectionIndex - 1);
+            }
+        });
+
+        function scrollToSection(index) {
+            if (index < 0 || index >= sections.length) {
+                isScrolling = false;
+                return;
+            }
+
+            const targetPosition = sections[index].offsetTop;
+            const startPosition = window.scrollY;
+            const distance = targetPosition - startPosition;
+            const duration = 500;
+            let start = null;
+
+            function step(timestamp) {
+                if (!start) start = timestamp;
+                const progress = timestamp - start;
+                const percent = Math.min(progress / duration, 1);
+                window.scrollTo(0, startPosition + distance * percent);
+
+                if (progress < duration) {
+                    requestAnimationFrame(step);
+                } else {
+                    currentSectionIndex = index;
+                    isScrolling = false;
+                }
+            }
+
+            requestAnimationFrame(step);
+        }
+    });
+
+
+    let slideIndex = 0;
+    let slideTimer;
+
+    showSlides();
+
+    function plusSlides(n) {
+        clearTimeout(slideTimer); // 清除之前的计时器
+        slideIndex += n;
+        showSlides(true); // 在手动切换时传递一个参数
+    }
+
+    function showSlides(manual = false) {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        if (manual) {
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            if (slideIndex < 1) { slideIndex = slides.length }
+        } else {
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+        }
+        slides[slideIndex - 1].style.display = "block";
+        slideTimer = setTimeout(showSlides, 2000); // 每2秒切换一次
+    }
+
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0";
+    }
+
+    function navigateAndClose() {
+        // Add navigation logic here if needed, for example:
+        // window.location.href = 'your-target-url';
+        closeNav();
+    }
+
+</script>
+</body>
+</html>
